@@ -1,0 +1,22 @@
+
+<nav class="navbar navbar-expand-lg bg-dark border-bottom border-body"
+	data-bs-theme="dark">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="/">StudentDB</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+			data-bs-target="#navbarScroll" aria-controls="navbarScroll"
+			aria-expanded="false" aria-label="Toggle navigation">
+			
+		</button>
+		<div class="collapse navbar-collapse" id="navbarScroll">
+			<ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+				style="--bs-scroll-height: 100px;">
+				<li class="nav-item"><a class="nav-link active" href="/students">Students</a></li>
+				<li class="nav-item"><a class="nav-link" href="/add-student">Add student</a></li>
+				<li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
+				<li class="nav-item"><a class="nav-link" href="/login">Logout</a></li>
+			</ul>
+			
+		</div>
+	</div>
+</nav>
